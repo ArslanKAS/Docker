@@ -8,7 +8,7 @@ WORKDIR /app
 COPY ./requirements.txt /app
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-# Copy the scripts to the folder
+# Copy the Scripts to the Folder
 COPY . /app
 
 # Start the Server
